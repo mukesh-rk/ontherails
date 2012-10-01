@@ -1,0 +1,6 @@
+<%= form_tag("/welcome/show", :method => "get") do %>
+  <%= label_tag(:q, "enter ur name") %>
+  <%= text_field_tag(:q) %>
+  <%= submit_tag("submit") %>
+<% end %>
+
